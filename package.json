@@ -1,0 +1,19 @@
+{
+  "name": "rofi-screenshot-sway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Manjaro-Sway/rofi-screenshot-sway.git",
+  "author": "Jonas Strassel <info@jonas-strassel.de>",
+  "license": "MIT",
+  "scripts": {
+    "build": "ncc build src/index.ts -o dist",
+    "start": "yarn build && rofi -show screenshot -modi screenshot:./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.3",
+    "@vercel/ncc": "^0.29.0",
+    "execa": "^5.1.1",
+    "lookpath": "^1.2.1",
+    "typescript": "^4.3.5"
+  }
+}
