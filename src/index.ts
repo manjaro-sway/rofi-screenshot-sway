@@ -1,12 +1,8 @@
 #!/usr/bin/env node
-
 import { RofiElement } from "./types";
 import { lookpath } from "lookpath";
 import { capture } from "./capture";
 import { bin_grimshot } from "./utils";
-
-const mode_capture = { name: "capture", icon: "📷" };
-const modes = [mode_capture];
 
 const target_file: RofiElement = { name: "file", icon: "💾" };
 const target_clipboard: RofiElement = { name: "clipboard", icon: "📎" };

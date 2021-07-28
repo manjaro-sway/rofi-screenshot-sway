@@ -1,22 +1,19 @@
-import execa from "execa";
+import { execSync } from "child_process";
 
 export const notify = (
   title: string,
   message: string,
   timeoutSeconds: number = 1
 ) => {
-  return execa(`notify-send`, [
-    title,
-    message,
-    "-t",
-    `${timeoutSeconds * 1000}`,
-  ]);
+  return execSync(
+    `notify-send \"${title}\" \"${message}\" -t ${timeoutSeconds * 1000}`
+  );
 };
 
 export const countdown = async (title: string, times: number = 3) => {
   for (let i = times; i--; i >= 0) {
-    await notify(title, `${title} in ${i + 1} seconds`);
-    await execa("sleep", ["1"]);
+    notify(title, `${title} in ${i + 1} seconds`);
+    execSync("sleep 1");
   }
 };
 
