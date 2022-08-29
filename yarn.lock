@@ -2,22 +2,22 @@
 # yarn lockfile v1
 
 
-"@types/node@^16.4.3":
+"@types/node@16.4.3":
   version "16.4.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.4.3.tgz#c01c1a215721f6dec71b47d88b4687463601ba48"
   integrity sha512-GKM4FLMkWDc0sfx7tXqPWkM6NBow1kge0fgQh0bOnlqo4iT1kvTvMEKE0c1RtUGnbLlGRXiAA8SumE//90uKAg==
 
-"@vercel/ncc@^0.29.0":
+"@vercel/ncc@0.29.0":
   version "0.29.0"
   resolved "https://registry.yarnpkg.com/@vercel/ncc/-/ncc-0.29.0.tgz#ac23fc23f1593b05c72360108bcf6d849d2f317a"
   integrity sha512-p+sB835wOSDdgm2mgFgSOcXJF84AqZ+vBEnnGS0sm8veA92Hia7sqH0qEnqeFilPl+cXtxbdh2er+WdlfbVCZA==
 
-lookpath@^1.2.1:
+lookpath@1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/lookpath/-/lookpath-1.2.1.tgz#609c16d694603465c6c4b53bb5d5e3380e8eb1ef"
   integrity sha512-dMlL1UqJmBNoXLxRM2lZICttyf9U2+5leFewVRWujybSoL9HAWfDw53NwIffnc5uPHmBiP5EosR/R8lkB4jftQ==
 
-typescript@^4.3.5:
+typescript@4.3.5:
   version "4.3.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
   integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
